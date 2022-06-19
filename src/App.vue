@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import NavBar from './components/NavBar.vue';
+import MyBar from './components/MyBar.vue';
 </script>
 
 <template>
@@ -59,7 +60,7 @@ import NavBar from './components/NavBar.vue';
         </div>
       </div>
 
-      <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+      <MyBar />
     </main>
   </div>
 </div>
